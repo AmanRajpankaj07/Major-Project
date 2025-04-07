@@ -2,6 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1>Hi</h1>
+    <main className="min-h-screen w-full bg-neon-particles flex items-center justify-center">
+      <h1 className="text-4xl text-white font-bold">
+        Welcome to My-Project 🎯
+      </h1>
+    </main>
   );
 }
