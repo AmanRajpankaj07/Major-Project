@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes glitter {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+.bg-glitter {
+  background-image: radial-gradient(#ffffff40 1px, transparent 1px),
+                    radial-gradient(#ffffff20 1px, transparent 1px);
+  background-size: 50px 50px, 20px 20px;
+  animation: glitter 4s linear infinite;
+}
+
+

@@ -6,7 +6,7 @@ export default function SignupPage() {
   const [role, setRole] = useState("student");
 
   return (
-    <main className="flex justify-center items-center min-h-screen ">
+    <main className="flex justify-center items-center min-h-screen bg-glitter">
       <div className="p-6 rounded-xl shadow-lg bg-[#102D53] w-[350px]">
         <h2 className="text-2xl font-bold mb-4 text-center bg-[linear-gradient(to_right,#C29226,#B27D0F,#D9B14A,#B27D0F,#C29226,#C7972B,#FADE7B)] bg-clip-text text-transparent">Sign Up</h2>
         <form className="space-y-4">
