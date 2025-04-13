@@ -5,7 +5,7 @@ export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className="min-h-screen w-full bg-neon-particles flex items-center justify-center">
+    <div className="min-h-screen w-full bg-black bg-neon-particles flex items-center justify-center">
       <div className="bg-white text-black rounded-2xl shadow-2xl overflow-hidden flex w-[90%] max-w-4xl">
         {/* Image/Side Banner */}
         <div className="w-1/2 bg-gradient-to-br from-black to-white hidden md:flex flex-col items-center justify-center p-10">

@@ -15,8 +15,8 @@ const Navbar = () => {
       MyGlassNav
     </Link>
     <div className="space-x-4 text-white">
-      <Link href={"/login"} className="font-bold hover:scale-105 " >Login</Link>
-      <Link href={"/login"} className="font-bold hover:scale-105 " >Sign Up</Link>
+      <Link href={"/login"} className="font-bold  hover:scale-105 " >Login</Link>
+      <Link href={"/login"} className="font-bold  hover:scale-105 " >Sign Up</Link>
     </div>
   </nav>
   
