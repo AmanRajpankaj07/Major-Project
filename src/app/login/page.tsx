@@ -13,7 +13,7 @@ export default function AuthPage() {
   useEffect(() => {
     // If a user is already logged in, redirect them to the dashboard
     if (user) {
-      router.push("/dashboard/student"); // Replace "/dashboard/student" with the actual route for your dashboard
+      router.push("/home"); // Replace "/dashboard/student" with the actual route for your dashboard
     }
   }, [user, router]); // This effect runs when the user state changes
 

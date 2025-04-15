@@ -14,10 +14,10 @@ export const CompanyCard = ({ src, name, isMore = false }: CompanyCardProps) => 
           More +
         </span>
       ) : (
-        <div>
+        <>
           <Image src={src || ""} alt={name || "Company"} width={80} height={20} />
           <p className="text-2xl ">{name}</p>
-        </div>
+        </>
       )}
     </div>
   );
